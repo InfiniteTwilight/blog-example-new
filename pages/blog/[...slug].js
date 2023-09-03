@@ -2,7 +2,7 @@ import PageTitle from '@/components/PageTitle'
 import { BuilderComponent, BuilderContent, builder } from '@builder.io/react'
 import '../../builder.config'
 
-builder.init('ccda6c7abf4c4b8195aa67d47de420dd')
+builder.init('060eea99331f4244803d550522589538')
 
 export async function getStaticPaths() {
   const posts = await builder.getAll('blog-post', {
